@@ -87,7 +87,10 @@
 - Communications and Networks
 	- technologies การสื่อสารที่ถูกสร้างขึ้นมา 1 หรือมากกว่านั้น![[Pasted image 20240821160300.png]]
 	- เครื่องมือสื่อสารคือ Hardware คืออุปกรณ์ที่ใช้สำหรับการถ่ายโอนจาก computers และ devices เพื่อส่งสื่อต่างๆ
-	- 
+	- Network คือกลุ่มของ computers และ devices ที่เชื่อมต่อด้วยกัน, ส่วนใหญ่เป็นไร้สายผ่านอุปกรณ์สื่อสารและการส่งสัญญาณ![[Pasted image 20240821160912.png]]
+- Technology Uses
+	![[Pasted image 20240821160959.png]]![[Pasted image 20240821161046.png]]
+
 ## Computers(WEEK 02)
 
 ## Computing components(WEEK 03)
