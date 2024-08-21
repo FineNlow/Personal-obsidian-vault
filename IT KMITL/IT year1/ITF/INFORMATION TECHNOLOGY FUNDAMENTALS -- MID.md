@@ -43,9 +43,9 @@
 	- Online Social Network
 		- ถูกสร้างไว้เพื่อแชร์ไอเดีย เรื่องราว เพลง วิดิโอ และอื่นๆ กับคนที่ใช้งานด้วยกัน
 		- Online Social Platforms![[Pasted image 20240821141857.png]]
--  Digital Safety and Security
+- Digital Safety and Security
 	- มันคือเรื่องสำคัญมากที่ users ทุกคนควรปกป้อง devices ของตนเอง
-		- Virus and Other Malwares
+		- Virus and Other Malwares(ไวรัสและมัลแวร์)
 			- Virus
 				- คือการนำโค้ดแฝงตัวไปกับ application และจะทำงานต่อเมื่อ application เปิดตัวขึ้น
 			- Ransomware
@@ -60,7 +60,7 @@
 				- ไวรัสที่แพร่กระจายผ่าน network ต่างๆด้วยตัวเอง
 			- Keyloggers 
 				- ควบคุม, ล็อก monitors ของ users 
-		- Privacy
+		- Privacy(ความเป็นส่วนตัว)
 			- Crimes Opportunities
 				- Social media เพิ่มโอกาส stalker มากยิ่งขึ้น
 			- Cybercrimes Opportunities
@@ -72,6 +72,22 @@
 				- การสร้าง password ควรมีความแข็งแรง ยาว และแตกต่าง
 					- ควรผสมตัวอักษร เลข และตัวอักษรพิเศษ
 					- ควรหลีกเลี่ยงการใช้ข้อมูลส่วนตัวในการตั้ง password
+					- ซ่อน password เวลากรอก
+					- จัดการ password ด้วย tool
+		- Health Concern(ปัญหาสุขภาพ)
+			- ออกห่างจากอุปกรณ์อิเล็กทรอนิกส์ต่างๆไม่ได้
+			- การใช้อุปกรณ์ที่เยอะเกินไปทำให้เกิดอาการหลายๆอย่างได้ เช่น วิตกกังวล ซึมเศร้า เป็นต้น
+			- Office syndrome
+		- Environmental Issues(ปัญหาสิ่งแวดล้อม)
+			- Green computing
+				- ถูกสร้างมาเพื่อลดการใช้พลังงานไฟฟ้าและลดการสิ้นเปลืองอุปกรณ์ในการสร้าง computer![[Pasted image 20240821155244.png]]
+- Programs & Apps
+	- Software หรือ Program คือการที่สั่งให้ computer ทำงานอย่างไร ทำยังไง![[Pasted image 20240821155533.png]]
+	![[Pasted image 20240821155614.png]]
+- Communications and Networks
+	- technologies การสื่อสารที่ถูกสร้างขึ้นมา 1 หรือมากกว่านั้น![[Pasted image 20240821160300.png]]
+	- เครื่องมือสื่อสารคือ Hardware คืออุปกรณ์ที่ใช้สำหรับการถ่ายโอนจาก computers และ devices เพื่อส่งสื่อต่างๆ
+	- 
 ## Computers(WEEK 02)
 
 ## Computing components(WEEK 03)
