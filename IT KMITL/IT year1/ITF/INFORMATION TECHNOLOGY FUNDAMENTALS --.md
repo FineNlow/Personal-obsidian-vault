@@ -95,7 +95,6 @@
 - Computer
 	- computer ประกอบด้วยวงจรไฟฟ้าและอุปกรณ์ electronics ในแต่ละส่วน
 	- ทำงานโดยเก็บข้อมูลของตัวมันเอง => software![[Computer.png]]
-	- 
 ## Computing components(WEEK 03)
 
 ## Input and Output(WEEK 04)
