@@ -92,9 +92,16 @@
 	![[Pasted image 20240821160959.png]]![[Pasted image 20240821161046.png]]
 
 ## Computers(WEEK 02)
-
+- Computer
+	- computer ประกอบด้วยวงจรไฟฟ้าและอุปกรณ์ electronics ในแต่ละส่วน
+	- ทำงานโดยเก็บข้อมูลของตัวมันเอง => software![[Computer.png]]
+	- 
 ## Computing components(WEEK 03)
 
 ## Input and Output(WEEK 04)
 
 ## Storage(WEEK 05)
+## Operating System(WEEK 06)
+
+## Programs & Apps(WEEK 07)
+## Database(WEEK 08)
