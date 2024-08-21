@@ -95,6 +95,13 @@
 - Computer
 	- computer ประกอบด้วยวงจรไฟฟ้าและอุปกรณ์ electronics ในแต่ละส่วน
 	- ทำงานโดยเก็บข้อมูลของตัวมันเอง => software![[Computer.png]]
+-  Class of computer
+	- Computer แบ่งเป็นหลายๆ class เพื่อนำมาใช้ในจุดประสงค์ที่แตกต่างกัน, ฟังก์ชัน, การใช้งาน, เทคโนโลยี
+	- เรียงลำกับจากเล็กไปใหญ่ของชนิด computer
+		1.)Microcomputers (Personal Computers)
+		2.)Minicomputers (Mid-range Computers)
+		3.)Mainframe Computers
+		4.)Supercomputers
 ## Computing components(WEEK 03)
 
 ## Input and Output(WEEK 04)
