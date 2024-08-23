@@ -1,3 +1,7 @@
+---
+banner: "![[Pasted image 20240823093836.png]]"
+tags:
+---
 ## Introducing Today Technology(WEEK 01)
 - Computer
 		- computer ประกอบด้วยวงจรไฟฟ้าและอุปกรณ์ electronics ในแต่ละส่วน
@@ -140,7 +144,7 @@
 		- Terminal คือ computer, โดยปกติจะจำกัดพลังงานการประมวลผล, เปิดให้ users ส่งข้อมูลสารสนเทศไปยัง server หรือ Host computer
 		- เครื่องที่บางเหมือน Desktop มีข้อจำกัดทางด้านความจุและส่วนประกอบ
 		- ร้านค้าส่วนใหญ่ใช้ระบบ POS ในการเก็บข้อมูลการสั่งซื้อ, จ่ายเงินด้วย Debit, Credit, update สินค้า
-		- ATM เป็น Self-service ที่ต่อกับ Host-computer ผ่าน Network- 
+		- ATM เป็น Self-service ที่ต่อกับ Host-computer ผ่าน Network
 	- Cloud Computing
 		- 
 ## Computing components(WEEK 03)
