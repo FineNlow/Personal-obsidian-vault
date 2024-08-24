@@ -1,6 +1,7 @@
 ---
 banner: "![[Pasted image 20240823093836.png]]"
 tags:
+  - banner
 ---
 ## Introducing Today Technology(WEEK 01)
 - Computer
