@@ -105,7 +105,7 @@ tags:
 	- เรียงลำกับจากเล็กไปใหญ่ของชนิด computer
 		- 1.)Microcomputers (Personal Computers)
 			- เครื่องขนาดเล็ก ราคาไม่แพง ที่ใช้งานด้วย microprocessor เป็น CPU
-			- ประกอบไปด้วย microprocessor, memory, minimal(I/O) บน PCB![[Pasted image 20240822125922.png]]
+			- ประกอบไปด้วย microprocessor, memory, minimal(Input/Output) บน PCB![[Pasted image 20240822125922.png]]
 		- 2.)Minicomputers (Mid-range Computers)
 			- เป็น computer ขนาดกลาง
 			- มีหลายตัวประมวลผลรับรองการใช้งานมากถึง 200 คน
@@ -120,6 +120,11 @@ tags:
 			- supercomputers รวดเร็วที่สุด ทรงพลังที่สุด และ แพงที่สุด
 			- สามารถรองรับการทำงานได้ 10^12 ภายใน 1 วินาที
 			- โดยปกติแล้ว ใช้สำหรับงานวิจัยและงานวิศวกรรม เช่น การพยากรณ์อากาศ, การจำลองทางวิทยาศาสตร์, การค้นคว้าพลังงานนิวเคลียร์
+	- Moore's Law
+		- -1965 Gordon Moore co-founder intel ได้สังเกตว่าตัวเลขของจำนวน transistors บน microchips ต่อ circuit นั้นเพิ่มขึ้นสองเท่าในทุกๆไป
+		- -1975 เขาได้เปลี่ยนคำทำนายเป็นเพิ่มสองเท่าในทุกๆสองปี
+		- -2015 intel ได้บอกว่าจะเวลาใกล้เพิ่มขึ้น 2.5 ปี จาก 2 ปี
+			- เครื่อง MOSFET ได้พัฒนาอย่างช้าลงตั้งแต่ปี 2010
 	- Server
 		- server เป็นเครื่องที่ให้บริการ computer มากกว่าหนึ่งเครื่องบน network
 		- Rack vs Blade
@@ -142,14 +147,41 @@ tags:
 					- ราคาแพงกว่า Rack
 					- ปิดเครื่องทีเดียว เครื่อง server ดับทุกเครื่อง
 	- Client - Terminal
-		- Terminal คือ computer, โดยปกติจะจำกัดพลังงานการประมวลผล, เปิดให้ users ส่งข้อมูลสารสนเทศไปยัง server หรือ Host computer
+		- Terminal คือ computer, โดยปกติจะจำกัดพลังงานการประมวลผล, เปิดให้ users ส่งข้อมูลสารสนเทศหรือรับข้อมูลไปยัง server หรือ Host computer
 		- เครื่องที่บางเหมือน Desktop มีข้อจำกัดทางด้านความจุและส่วนประกอบ
 		- ร้านค้าส่วนใหญ่ใช้ระบบ POS ในการเก็บข้อมูลการสั่งซื้อ, จ่ายเงินด้วย Debit, Credit, update สินค้า
 		- ATM เป็น Self-service ที่ต่อกับ Host-computer ผ่าน Network
 	- Cloud Computing
-		- 
+		- การเข้าถึงเนื้อหา ข้อมูลและ services ได้ผ่านทาง internet
+	- Port & Connection
+		- คือ อุปกรณ์ที่เอาไว้เชื่อมต่อ Devices หรือ การถ่ายโอนข้อมูล
+		- Universal Serial Bus(USB)
+			- USB สามารถต่อพ่วงได้ถึง 127 เครื่องใช้แค่ตัวต่อตัวเดียว
+			- Connector จะเชื่อมกับสายไฟ
+			- แทนที่จะต่อสายกับ com พวกพาโดยตรง ผู้ใช้บางส่วนใช้งานตัวจำลองหรือ docking station ![[Pasted image 20240825144958.png]]
+	- Protecting Hardware
+		- Theft(โจร)
+			- การเข้าถึงเครื่องโดยตรง(ชีวิตจริง)
+			- การแจ้งเตือน
+			- ความปลอดภัยของเครื่องโดยตรง(ชีวิตจริง)
+			- Tracking app หรือ แอพรักษาความปลอดภัย
+			- การระบุตัวตน
+		- Failure(ทำงานผิดพลาด)
+			- Surge Protector(ตัวกันไฟกระชาก)
+			- Uninterruptible Power Supply(ตัวกันการล่ม power supply)
 ## Computing components(WEEK 03)
-
+- PC case
+	- case![[Pasted image 20240825150741.png]]
+		- Inside Case
+			- ![[Pasted image 20240825151326.png]]
+				- Desktop
+					- Motherboard![[Pasted image 20240825152842.png]]
+					- CPU
+						- เก็บข้อมูลพื้นฐานของ computer
+						- CPU 1 ตัว มี multi-core processor
+							- 2 cores ขึ้นไปอยู่ในตัวเดียว
+						- ประกอบด้วยการคำนวณทางคณิตศาสตร์(ALU)
+					- 
 ## Input and Output(WEEK 04)
 
 ## Storage(WEEK 05)
