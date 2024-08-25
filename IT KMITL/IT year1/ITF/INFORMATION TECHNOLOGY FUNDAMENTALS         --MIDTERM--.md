@@ -186,6 +186,6 @@ tags:
 
 ## Storage(WEEK 05)
 ## Operating System(WEEK 06)
-
+- OS คือ ชุดคำสั่งที่เชื่อมโปรแกรมกับ hardware เข้าด้วยกัน
 ## Programs & Apps(WEEK 07)
 ## Database(WEEK 08)
