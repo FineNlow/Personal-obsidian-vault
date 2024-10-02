@@ -14,4 +14,4 @@
 		- You lose when?
 			- เมื่อโจทย์เพิมขึ้นถึงครบถึงจำนวนตามที่กำหนดไว้
 	- <span style="color:rgb(86, 90, 215)">Actions</span>
-		- 
+			- กด start => choose difficultly => countdown 3 2 1 =>  
