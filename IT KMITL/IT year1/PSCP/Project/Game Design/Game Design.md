@@ -4,6 +4,10 @@
 			- สำหรับฝึกเลขในระดับเด็กอนุบาล 4 - 6 ปี
 		- 2.) Easy
 			- สำหรับฝึกเลขในระดับประถม 7-12 ปี
+			- - Detail
+				- อาจจะไม่มีตัว fail detect มากดดัน เพราะว่าฝึกในวัยเด็กอนุบาล
+			- Detail
+				- อาจจะไม่มีตัว fail detect มากดดัน เพราะว่าฝึกในวัยเด็กประถม
 		- 3.) Medium
 			- สำหรับฝึกเลขในระดับมัธยมต้น 13 - 15 ปี
 		- 4.) Hard
@@ -14,4 +18,8 @@
 		- You lose when?
 			- เมื่อโจทย์เพิมขึ้นถึงครบถึงจำนวนตามที่กำหนดไว้
 	- <span style="color:rgb(86, 90, 215)">Actions</span>
-			- กด start => choose difficultly => countdown 3 2 1 =>  
+			- กด start => choose difficultly => countdown 3 2 1 => enter the game stage => play till the game over => Try again or go to main menu
+	- Reward
+		- Coins for secret
+		- ???
+	- Feedback(maybe)
