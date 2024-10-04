@@ -20,6 +20,6 @@
 	- <span style="color:rgb(86, 90, 215)">Actions</span>
 			- กด start => choose difficultly => countdown 3 2 1 => enter the game stage => play till the game over => Try again or go to main menu
 	- Reward
-		- Coins for secret
-		- ???
+		- Coins for secret stage
 	- Feedback(maybe)
+		- Game improvement
