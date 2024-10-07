@@ -23,3 +23,7 @@
 		- Coins for secret stage
 	- Feedback(maybe)
 		- Game improvement
+	- Function Specification
+		- 1.)Difficulty
+			- Easy && Medium
+				- กระบวนการตรวจสอบความถูกต้องของคำตอบ เมื่อผู้เล่นเลือกโจทย์และป้อนค่าลงไปกด submit ระบบจะทำการเช็คคำตอบกับโจทย์ที่เลือก ว่าถูกต้องหรือไม่ 
