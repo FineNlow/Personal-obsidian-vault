@@ -1,5 +1,5 @@
 **Game mechanics.**
-	- <span style="color:rgb(0, 112, 192)">เกมฝึกเลข มี Difficulties แบ่งตามระดับ และโหมด Endless(ไม่สิ้นสุด), Zen(ผ่อนคลาย)</span>
+	- <span style="color:rgb(0, 112, 192)">เกมฝึกเลข มี Difficulties แบ่งตามระดับ</span>
 		- 1.) Child play
 			- สำหรับฝึกเลขในระดับเด็กอนุบาล 4 - 6 ปี
 		- 2.) Easy
