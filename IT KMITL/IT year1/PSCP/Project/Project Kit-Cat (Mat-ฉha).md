@@ -16,7 +16,7 @@
 	- https://shorturl.at/2NFBg
   
 แผนการดำเนินงานโดยคร่าว และการแบ่งหน้าที่ภายในทีม (แยกเป็น %)
-	- โดยสัปดาห์แรก จะศึกษาเกี่ยวกับ Libraries ต่างๆ เพื่อพร้อมทำโปรเจคให้ได้ไม่ติดขัด และมีการออกแบบ ux-ui ของตัวเกม สัปดาห์สอง - สัปดาห์สุดท้าย จะเริ่มสร้างระบบ, GUI, Test performance ของตัวเกม และการแบ่งหน้าที่ภายในทีม จะมีฝ่าย ux-ui designer, Sofware developer, Project Manager, documentation โดยทุกๆคนจะแบ่งทำเป็นสัดส่วนเท่าๆกัน ยกเว้นหัวหน้าทีมและรองหัวหน้าทีมที่จะมีในส่วนของ project manager เข้ามาด้วย "ux-ui designer 20%, software dev 40%, project manager 20%, documentation 20%" ส่วนสมาชิกมีสัดส่วน คือ ux-ui designer 30%, software dev, documentation 30%
+	- โดยสัปดาห์แรก จะศึกษาเกี่ยวกับ Libraries ต่างๆ เพื่อพร้อมทำโปรเจคให้ได้ไม่ติดขัด และมีการออกแบบ ux-ui ของตัวเกม สัปดาห์สอง - สัปดาห์สุดท้าย จะเริ่มสร้างระบบ, GUI, Test performance ของตัวเกม และการแบ่งหน้าที่ภายในทีม จะมีฝ่าย ux-ui designer, Software developer, Project Manager, documentation โดยทุกๆคนจะแบ่งทำเป็นสัดส่วนเท่าๆกัน ยกเว้นหัวหน้าทีมและรองหัวหน้าทีมที่จะมีในส่วนของ project manager เข้ามาด้วย "ux-ui designer 20%, software dev 40%, project manager 20%, documentation 20%" ส่วนสมาชิกมีสัดส่วน คือ ux-ui designer 30%, software dev, documentation 30%
 
 Python Libraries หรือ Frameworks ที่คาดว่าจะใช้คือ
 	- Libraries - Pygame, Operator, Random etc.
