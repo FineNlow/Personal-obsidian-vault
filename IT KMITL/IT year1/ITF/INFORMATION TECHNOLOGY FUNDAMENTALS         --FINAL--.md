@@ -1,5 +1,6 @@
 - ## Ethical, Social, and Legal Aspects of Information Technology
 	- Theft of Software, Information and Hardware
+		- 
 	- Information Privacy
 	- Principles of Technology Ethics
 	- Ethical and Social Aspects of Information Technology
