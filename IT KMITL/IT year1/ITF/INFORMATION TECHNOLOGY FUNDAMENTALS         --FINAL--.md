@@ -38,4 +38,5 @@
 				- EU = General Data Protection Regulation (GDPR)
 				- TH = s Personal Data Protection Act BE 2562 (PDPA)
 		- Principles of Technology Ethics
+			- 
 	
