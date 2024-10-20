@@ -41,4 +41,39 @@
 			- ประโยชน์ที่ได้จากเทคโนโลยีต้องมากกว่าอันตรายหรือความเสี่ยง
 			- เข้าใจและยอมรับความเสี่ยง
 			- ประโยชน์และการเผยแพร่ควรกระจายอย่างยุติธรรม
-	- 
+			- ลดความเสี่ยยงที่ไม่จำเป็นออกให้หมด
+		- **กฎหมายไปอ่านเอาเองงง**
+- ## Working in the Enterprise: Systems, Certifications, and Careers
+	- งานเกือบทุกงานต้องใช้เทคโนโลยีเพื่อ ทำให้ project เสร็จ, แลกเปลี่ยนข้อมูลกับทีมงาน, ตอบสนองกับงานลูกค้า เมื่อมีเทคโนโลยีใหม่ๆเกิดขึ้น องค์กรจะหาคนที่มีศักยภาพในการเรียนรู้ ปรับตัวกับเทคโนโลยีใหม่ๆได้ตลอด
+	- Information System  เป็นชุด Hardware, data, ผู้คน และขั้นตอนการที่ทำงานร่วมกันเพื่อผลิตข้อมูล(Information) เพื่อช่วยในการทำข้อมูลที่ถูกต้องและมีมูลค่า
+	- ข้อมูลจะมูลค่าได้ก็ต้องมีการแม่นยำ, ตรวจสอบได้, ตรงเวลา, การจัดการที่มีระเบียบ, เข้าถึงได้, มีประโยชน์, คุ้มค่า
+	- องค์กรทั่วๆไปจะมีหลายๆส่วนงานและมีการแบ่งหน้าที่ = HR, Engineer, Marketing, Sales, Customer Service, Manufacturing เป็นต้น
+	- Enterprise Resource Planning(ERP) => รวมกับ MRP II เพื่อประสานงานในองค์กร = Product planning, Manufacturing and distribution, Accounting and finance, Sales, HR, Customer support
+	- Document Management System (DMS)
+		- จัดการ Docs ของบริษัท
+		- รักษาความปลอดภัยของข้อมูล
+	- Content Management System (CMS)
+		- จัดการการเผยแพร่
+		- เพิ่ม Content ผ่าน Webpage
+	- A transaction processing system (TPS) => ระบบที่ตรวจสอบการทำงานของ Business Data วันต่อวัน แบบ Online transaction processing (OLTP)
+	- A management information system (MIS) => สร้างข้อมูลที่แม่นยำ ตรงเวลา มีระเบียบ จึงทำให้การจัดการหรือ users สามารถตัดสินใจ แก้ปัญหา การดูแล หรือติดตามการทำงานได้
+	- A decision support system (DSS) => ช่วยในการวิเคราะห์ข้อมูลและตัดสินใจ แบบ Online analytical processing (OLAP) ใช้ข้อมูลจาก internal, external ข้อมูลจาก external อาจจะรวมไปถึงอัตราดอกเบี้ย แนวโน้มจำนวนประชากร หรือราคาของวัตถุดิบ
+	- An expert system => เป็นข้อมูลที่ตรวจจับและรวบรวมความรู้จากคนที่เก่งๆและเลียนแบบเหตุผลและการตัดสินใจจากคน
+	- งานด้านไอทีแบ่งเป็นกลุ่มๆ => Management, Research and software dev, IT support, Operations, Training/Support, IT security, Marketing/Strategy
+	- IT consultant => โดยปกติแล้วจะจ้างจาก ประสบการณ์ ความเชี่ยวชาญ การให้บริการด้านเทคโนต่างๆกับลูกค้า
+	- Tech Certifications
+		- เป็นตัวที่เอาไว้ประเมินความรู้เฉพาะด้านหรือทักษะเฉพาะตัว
+		- ต้องการเงินและเวลาในการได้ Certs
+		- Certs มีเยอะมากกก ไปหาเอาเอง ตามเฉพาะด้านเลย เช่น 
+			- Network => CCNA ที่เป็นของ Cisco
+			- Cyber => CEH ที่มีแล้ว Hack ได้อย่างถูกกฎหมาย
+			- เป็นต้น
+- ## Internet
+	- What is internet???
+		- มันมีคำตอบอยู่สองแบบคือ
+			1.) เราอธิบายได้ว่ามันเป็น <span style="color:rgb(0, 176, 240)">nuts and bolts(หลักปฎิบัติพื้นฐาน)</span> ของ internet แค่นั้นแหล่ะ และ hardware พื้นฐาน, ส่วนย่อยๆของ software นั่นรวมกันได้เป็น internet.
+			2.) เราอธิบายได้ว่ามันเป็นโครงสร้างของ network ที่บริการให้กับ applications.
+		- <span style="color:rgb(0, 176, 240)">nuts and bolts</span> 
+			- Internet เป็น computer network ที่เชื่อมต่อคอมพิวเตอร์หลายพันล้านเครื่องเข้าด้วยกัน ส่วนใหญ่เป็น pc, Linux workstation, web server
+			- ระบบปลายทางอินเทอร์เน็ตที่ไม่ใช่แบบเดิมๆ เช่น แล็ปท็อป สมาร์ทโฟน แท็บเล็ต ทีวี คอนโซลเกมเว็บแคม รถยนต์ อุปกรณ์ตรวจจับสิ่งแวดล้อม กรอบรูป และระบบไฟฟ้าและความปลอดภัยในบ้าน กำลังเชื่อมต่อกับอินเทอร์เน็ตมากขึ้นเรื่อยๆ
+			- และเมื่อมีปุกรณ์ใหม่ๆเชื่อมต่อเข้ามา computer network ก็เริ่มที่จะล้าสมัย
