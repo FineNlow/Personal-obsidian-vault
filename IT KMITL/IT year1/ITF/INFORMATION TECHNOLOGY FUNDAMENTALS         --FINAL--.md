@@ -38,5 +38,7 @@
 				- EU = General Data Protection Regulation (GDPR)
 				- TH = s Personal Data Protection Act BE 2562 (PDPA)
 		- Principles of Technology Ethics
-			- 
-	
+			- ประโยชน์ที่ได้จากเทคโนโลยีต้องมากกว่าอันตรายหรือความเสี่ยง
+			- เข้าใจและยอมรับความเสี่ยง
+			- ประโยชน์และการเผยแพร่ควรกระจายอย่างยุติธรรม
+	- 
