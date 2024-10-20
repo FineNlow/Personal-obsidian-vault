@@ -73,27 +73,95 @@
 		- มันมีคำตอบอยู่สองแบบคือ
 			1.) เราอธิบายได้ว่ามันเป็น <span style="color:rgb(0, 176, 240)">nuts and bolts(หลักปฎิบัติพื้นฐาน)</span> ของ internet แค่นั้นแหล่ะ และ hardware พื้นฐาน, ส่วนย่อยๆของ software นั่นรวมกันได้เป็น internet.
 			2.) เราอธิบายได้ว่ามันเป็นโครงสร้างของ network ที่บริการให้กับ applications แบบกระจายข้อมูล แบบพวก website email เป็นต้น.
-		- <span style="color:rgb(0, 176, 240)">โครงสร้าง nuts and bolts</span> 
-			- Internet เป็น computer network ที่เชื่อมต่อคอมพิวเตอร์หลายพันล้านเครื่องเข้าด้วยกัน ส่วนใหญ่เป็น pc, Linux workstation, web server
-			- End system ปัจจุบันมีเพิ่มมากขึ้น เช่น รถยนต์ อุปกรณ์ตรวจจับสิ่งแวดล้อม กรอบรูป และระบบไฟฟ้าและความปลอดภัยในบ้าน กำลังเชื่อมต่อกับอินเทอร์เน็ตมากขึ้นเรื่อยๆ
-			- และเมื่อมีปุกรณ์ใหม่ๆเชื่อมต่อเข้ามา computer network ก็เริ่มที่จะล้าสมัย
-			- ในศัพท์เฉพาะ(Jargon) internet เครื่องมือพวกนี้เรียกว่า host หรือ end system
-			- Device => Hosts = End system, running network apps at Internet's "Edge"
-			- Packet switches : ส่งต่อ packets (ชิ้นส่วนข้อมูล) => ที่โดดเด่นคือ Routers, switches โดยสองตัวนี้จะมีหน้าที่ส่ง packets ไปยังปลายทางเหมือนกัน แต่ Link-layer switches โดยปกติแล้วต้องเข้าถึง Network(access networks) ระหว่างที่ Routers ปกติจะใช้ Network หลัก (Network Core)
-			- Communication links => (Fiber, radio, satellite), อัตราส่งข้อมูลแบบ bandwidth
-			- Networks => รวมอุปกรณ์, routers, links : จัดเรียงเป็นระเบียบ
-			- End systems ต่อเข้าด้วยกันโดยใช้ packet switches โดยมีหลายประเภทที่ทำโดยใช้วัสดุแตกต่างกัย เช่น สายทองแดง สายไฟเบอร์ออปติค เป็นต้น
-			- links สามารถส่งข้อมูลได้ด้วยอัตราที่ต่างกัน โดยจะวัดเป็น bits/sec.
-			- เมื่อ End system หนึ่งมีข้อมูลที่จะส่งไปยังอีก End system อีกระบบหนึ่ง ระบบปลายทางที่ส่งจะแบ่งส่วนข้อมูลและเพิ่ม bytes ส่วนหัวให้กับแต่ละส่วน
-			- packages ข้อมูลที่ได้จะูกส่งเป็น packets ไปยัง End system ปลายทาง ละจะกลับมาเป็นข้อมูลเดิม![[Pasted image 20241020145709.png]]
-			- End system จะเชื่อต่อผ่าน ISP (Internet Service Providers) แบบ
+	- <span style="color:rgb(0, 176, 240)">โครงสร้าง nuts and bolts</span> 
+			- **Internet** เป็น **computer network** ที่เชื่อมต่อคอมพิวเตอร์หลายพันล้านเครื่องเข้าด้วยกัน ส่วนใหญ่เป็น pc, Linux workstation, web server
+			- **End system** ปัจจุบันมีเพิ่มมากขึ้น เช่น รถยนต์ อุปกรณ์ตรวจจับสิ่งแวดล้อม กรอบรูป และระบบไฟฟ้าและความปลอดภัยในบ้าน กำลังเชื่อมต่อกับอินเทอร์เน็ตมากขึ้นเรื่อยๆ
+			- และเมื่อมีปุกรณ์ใหม่ๆเชื่อมต่อเข้ามา **computer network** ก็เริ่มที่จะล้าสมัย
+			- ในศัพท์เฉพาะ(Jargon) internet เครื่องมือพวกนี้เรียกว่า **host** หรือ **End system**
+			- **Device** => Hosts = End system, running network apps at Internet's "Edge"
+			- **Packet switches** : ส่งต่อ **packets (ชิ้นส่วนข้อมูล)** => ที่โดดเด่นคือ **Routers, switches** โดยสองตัวนี้จะมีหน้าที่ส่ง packets ไปยังปลายทางเหมือนกัน แต่ Link-layer **switches** โดยปกติแล้วต้องเข้าถึง Network(**Access networks**) ระหว่างที่ **Routers** ปกติจะใช้ Network หลัก (**Network Core**)
+			- **Communication links** => (Fiber, radio, satellite), อัตราส่งข้อมูลแบบ bandwidth
+			- **Networks** => รวมอุปกรณ์, routers, links : จัดเรียงเป็นระเบียบ
+			- **End systems** ต่อเข้าด้วยกันโดยใช้ **packet switches** โดยมีหลายประเภทที่ทำโดยใช้วัสดุแตกต่างกัย เช่น สายทองแดง สายไฟเบอร์ออปติค เป็นต้น
+			- **links** สามารถส่งข้อมูลได้ด้วยอัตราที่ต่างกัน โดยจะวัดเป็น **bits/sec.**
+			- เมื่อ **End system** หนึ่งมีข้อมูลที่จะ**ส่งไป**ยังอีก **End system** อีกระบบหนึ่ง ระบบปลายทางที่ส่งจะแบ่งส่วนข้อมูลและ**เพิ่ม bytes ส่วนหัวให้กับแต่ละส่วน**
+			- **packages** ข้อมูลที่ได้จะูกส่งเป็น **packets** ไปยัง **End system ปลายทาง** ละจะกลับมาเป็นข้อมูลเดิม![[Pasted image 20241020145709.png]]
+			- **End system** จะเชื่อต่อผ่าน **ISP (Internet Service Providers)** แบบ
 				- Residential ISPs => เครือข่ายท้องถิ่น, University ISPs, Corporate ISPs, ISPs ที่รองรับการเข้าถึงผ่าน WIFI สาธารณะแบบใน สนามบิน ร้านกาแฟ โรงแรม เป็นต้น
-			- ISP อยู่ใน Packet switches และ communication links.
-			- ISP ให้บริการ Internet เพื่อเข้าถึง Content(Content providers) โดยต่อตรงกับ Internet, Internet ต้องต่อ End system เข้าด้วยกัน ISP ที่ให้ Access End system จะต้องเชื่อมต่อถึงกันด้วย
-			- โดย ISPs มีระดับ Tier ดังนี้
+			- **ISP** อยู่ใน **Packet switches** และ **communication links.**
+			- **ISP** ให้บริการ Internet เพื่อเข้าถึง **Content(Content providers)** โดยต่อตรงกับ Internet, **Internet ต้องต่อ End system เข้าด้วยกัน ISP ที่ให้ Access End system จะต้องเชื่อมต่อถึงกันด้วย**
+			- โดย **ISPs** มีระดับ **Tier** ดังนี้
 				- Lower-tier ISPs => Local
 				- Upper-tier ISPs => national and international AT&T(USA), Sprint(USA), NTT(Japan) เป็นต้น มี Router ความเร็วระดับสูงพร้อมกับสายไฟเบอร์ออปติกที่มีการส่งข้อมูลแบบรวดเร็ว
-				- แต่ไม่ว่าระดับไหนจะจัดการได้อย่างอิสระ และเรียกใช้ IP protocol และมีกฎต่างๆ
-				- Protocols ควบคุมการรับและส่งข้อมูลภายใน Internet โดยมี Transmission Control Protocol (TCP) และ Internet Protocol (IP) ที่เป็นตัวหลักสำคัญๆใน Protocols ของ Internet
-				- IP protocols นั้นระบุ packets ที่ส่งและรับจาก routers และ End systems
-				- IETF => พัฒนามาตรฐานของ Internet(requests for comments หรือ RFCs) เพื่อออกแบบ Network, Protocol ที่เผชิญมาตั้งแต่ยุค [Allman 2011] โดย RFCs เป็น Docs ที่มีรายละเอียดเยอะมาก จะคอยกำหนด Protocols ต่างๆเช่น TCP, IP, HTTP(Website) และ SMTP(Email)
+				- แต่ไม่ว่าระดับไหนจะจัดการได้อย่างอิสระ และเรียกใช้ **IP protocol** และมีกฎต่างๆ
+			- **Protocols** ควบคุมการรับและส่งข้อมูลภายใน Internet โดยมี **Transmission Control Protocol (TCP)** และ **Internet Protocol (IP)** ที่เป็นตัวหลักสำคัญๆใน Protocols ของ Internet
+			- **IP protocols** นั้นระบุ packets ที่ส่งและรับจาก routers และ End systems
+			- **IETF** => พัฒนามาตรฐานของ **Internet(requests for comments หรือ RFCs)** เพื่อออกแบบ **Network, Protocol** ที่เผชิญมาตั้งแต่ยุค [Allman 2011] โดย **RFCs** เป็น **Docs** ที่มีรายละเอียดเยอะมาก จะคอยกำหนด Protocols ต่างๆเช่น **TCP, IP, HTTP(Website) และ SMTP(Email)**
+	- **API** => End system จะถาม Internet infra ว่าขอส่ง Data ไปที่ที่ระบุไปให้(Program ที่รันอยู่บน End system ที่จะส่งไป)![[Pasted image 20241020175746.png]]
+		- **Protocol** เป็นมาตรฐาน ในการสื่อสาร เวลาคนสื่อสารต้องใช้ภาษาเดียวกัน Protocol ก็เหมือนกัน จะสื่อสารก็ต้องใช้ Protocol เดียวกัน![[Pasted image 20241020180028.png]]
+	- **Network edge** => End system to access point(local ISPs)
+				- การเชื่อมต่อของเครือข่ายเข้ากับผู้ใช้ (Access Networks)
+					- เครือข่ายสำหรับการเข้าถึงอินเทอร์เน็ตมีหลายรูปแบบ เช่น:
+					    - **DSL (Digital Subscriber Line)** ใช้สายโทรศัพท์ในการส่งข้อมูล
+					    - **Cable Network** ใช้เครือข่ายสายเคเบิลทีวีในการเชื่อมต่อ
+					    - **Fiber to the Home (FTTH)** ให้ความเร็วสูงโดยใช้สายไฟเบอร์ออปติก
+					    - **Wireless (Wi-Fi)** และ **เครือข่ายเซลลูลาร์** สำหรับการเชื่อมต่อไร้สาย![[Pasted image 20241020180607.png]]
+					    - **Ethernet** ไว้สำหรับบริษัท มหาลัย เป็นต้น มีสายไฟผสมๆกัน ไร้สาน และรวม switches กับ Routers
+	- โครงสร้างของเครือข่าย: Network of Networks
+			- อินเทอร์เน็ตเป็นเครือข่ายของเครือข่าย (network of networks) โดยมีการเชื่อมโยงกันระหว่าง ISP หลายระดับทั่วโลก การเชื่อมต่อเหล่านี้ทำให้สามารถส่งต่อข้อมูลระหว่าง **End systems** ได้ทุกที่ในโลก
+			- **Content Provider Networks** เช่น Google, Facebook มักจะมีเครือข่ายส่วนตัว (private network) ของตนเองเพื่อเชื่อมต่อบริการของตนเข้ากับอินเทอร์เน็ตโดยตรง ไม่ต้องผ่าน ISP ระดับกลาง
+	- การรักษาความปลอดภัยในเครือข่าย (**Network Security**)
+		- เครือข่ายอินเทอร์เน็ตในยุคเริ่มต้นไม่ได้ถูกออกแบบให้มีความปลอดภัยสูง จึงมีความเสี่ยงในการถูกโจมตีจากผู้ไม่ประสงค์ดี เช่น **การดักฟังข้อมูล (packet sniffing), การปลอมแปลงข้อมูล (IP spoofing), และการโจมตีเพื่อปิดระบบ (Denial of Service - DoS)**
+		- มาตรการการป้องกัน ได้แก่ **การพิสูจน์ตัวตน (authentication), การเข้ารหัสข้อมูล (encryption), การตรวจสอบความสมบูรณ์ของข้อมูล (integrity checks), และการใช้ Firewall เพื่อกรองข้อมูลที่ไม่พึงประสงค์**
+- ## Introduction to Computer Network
+	- **Network Topology** หรือ **physical topology**
+		- รูปแบบการเชื่อมต่ออุปกรณ์ในเครือข่าย ซึ่งมีหลายประเภท เช่น:![[Pasted image 20241020184629.png]]
+			- **Mesh Topology**: ทุกอุปกรณ์ในเครือข่ายเชื่อมต่อกันหมด ทำให้มีเส้นทางสำรองเมื่อเกิดปัญหากับอุปกรณ์ใดอุปกรณ์หนึ่ง แต่มีค่าใช้จ่ายสูง![[Pasted image 20241020184720.png]]
+			- **Star Topology**: อุปกรณ์ทุกตัวเชื่อมต่อไปยังจุดศูนย์กลาง (Hub หรือ Switch) ทำให้หาก Hub ล้มเหลว ระบบทั้งหมดย่อมล้มเหลวไปด้วย![[Pasted image 20241020184727.png]]
+			- **Bus Topology**: ทุกอุปกรณ์เชื่อมต่อกับสายเส้นหลักเดียวกัน การส่งข้อมูลจะเกิดการชนกัน (Collision) ทำให้ประสิทธิภาพต่ำ![[Pasted image 20241020184745.png]]
+			- **Ring Topology**: ข้อมูลจะถูกส่งไปในลูป หากมีการขาดของสาย การเชื่อมต่อจะล้มเหลว![[Pasted image 20241020184755.png]]
+			- **Hybrid Topology**: ผสมผสานรูปแบบหลาย ๆ อย่างเข้าด้วยกัน เช่น การต่อ Hub แบบ star และเชื่อมแบบ Bus![[Pasted image 20241020184803.png]]
+	- **Logical Topology (Multiple Access Protocol)**
+		- **MA** => ควบคุมการเชื่อมต่อหลายๆอุปกรณ์ ใช้ common link เพื่อจัดการและจัดสรรช่องสัญญาณ
+			- เพื่อป้องกันการแทรกจากอุปกรณ์ที่ไม่เกี่ยวข้องและป้องกันการใช้ตัวกลางตัวเดียว![[Pasted image 20241020185308.png]]
+			- **CSMA (Carrier-sense multiple access)**: เป็นกระบวนการตรวจสอบสื่อก่อนการส่งข้อมูล []()เพื่อลดโอกาสการชน(Collision)ของข้อมูล แต่ไม่สามารถหลีกเลี่ยงการชนกันได้เสมอไป(Propagation Delay)![[Pasted image 20241020185613.png]]
+			- **CSMA/CD (CSMA with Collision Detection)**: เป็นการตรวจสอบการชนของข้อมูล หากชนกันจะส่งข้อมูลใหม่อีกครั้ง โดยมีการใช้หลัก **Back-off** เพื่อสุ่มเวลาส่งซ้ำ
+			- **Token Passing**: ใช้ในเครือข่าย **Ring** โดยแต่ละสถานีจะสามารถส่งข้อมูลได้เมื่อได้รับ Token ซึ่งเป็น Packet พิเศษที่วิ่งในเครือข่าย
+	- **Network Communication Standard (มาตรฐานการสื่อสารในเครือข่าย)**
+		![[Pasted image 20241020191329.png]]
+		- **Ethernet**: มาตรฐานการสื่อสารใน LAN ที่ใช้ CSMA/CD ในการจัดการการชนกันของข้อมูล![[Pasted image 20241020191403.png]]
+			- แบ่งได้หลายเวอร์ชัน เช่น 10Base5, 10Base2, 10Base-T, และ 10Base-F ขึ้นอยู่กับชนิดของสายที่ใช้ (เช่น UTP หรือ Fiber-optic)![[Pasted image 20241020191456.png]]![[Pasted image 20241020191634.png]]
+		- **Fast Ethernet**: พัฒนาจาก Ethernet ปกติ โดยมีความเร็วที่สูงขึ้นถึง 100 Mbps และใช้ได้ทั้งแบบครึ่งทาง (Half-duplex) และเต็มทาง (Full-duplex)
+		- **Gigabit Ethernet**: ความเร็วสูงถึง 1 Gbps ใช้สายสื่อสารประเภท Fiber-optic และ Copper
+		- **Ten-Gigabit Ethernet**: พัฒนาต่อจาก Gigabit Ethernet มีความเร็วสูงถึง 10 Gbps และสามารถสื่อสารระยะไกลได้ถึง 40 กิโลเมตร
+	- **Connecting LAN (การเชื่อมต่อ LAN)**
+		- **Repeater**: อุปกรณ์ที่ใช้เชื่อมต่อและขยายสัญญาณ LAN โดยไม่กรองข้อมูล![[Pasted image 20241020191952.png]]
+		- **Bridge**: เชื่อมสอง LAN เข้าด้วยกัน และสามารถกรองข้อมูลตามที่อยู่ MAC Address![[Pasted image 20241020192029.png]]
+		- **Router**: เชื่อม LAN กับ WAN หรือ LAN หลายเครือข่ายเข้าด้วยกัน ทำงานในระดับ Layer 3 (Network Layer)![[Pasted image 20241020192041.png]]
+		- **Backbone Network**: โครงข่ายหลักที่เชื่อมต่อหลาย ๆ LAN เข้าด้วยกัน โดยสถานีปลายทางจะไม่เชื่อมต่อโดยตรงกับ Backbone แต่จะเชื่อมต่อผ่าน LAN![[Pasted image 20241020192054.png]]
+	- **Logical Addressing (การกำหนดที่อยู่ IP)**
+		การกำหนด IP Address ในระบบ **IPv4** มี 32 บิต โดยแบ่งเป็น Network ID และ Host ID เพื่อระบุเครือข่ายและอุปกรณ์ปลายทาง การคำนวณ Network ID จะใช้ Subnet Mask มาทำการ AND( * ) กับ IP Address:![[Pasted image 20241020192238.png]]![[Pasted image 20241020192357.png]]![[Pasted image 20241020192427.png]]![[Pasted image 20241020192437.png]]
+		- **Example**:
+			- **แปลง IP, subnet เป็นเลขฐาน 2 => AND ( * ) => แปลงกลับเป็น 32 bits => Network ID**
+		    - IP Address: `161.246.18.4`
+		    - Subnet Mask: `255.255.0.0`
+		    - Network ID: `161.246.0.0` การสื่อสารระหว่างเครือข่ายจะต้องมีการกำหนด IP Address และ Subnet Mask ให้ตรงกันเพื่อให้สามารถส่งข้อมูลได้
+		- คอมพิวเตอร์ หรือ อุปกรณ์ต่างๆ ที่มี**หมายเลข Network ID เดียวกัน**จะถือว่า **อยู่ใน Network เดียวกัน** ดังนั้นจะสามารถ**สื่อสารถึงกันได้โดยตรง**
+	- **Types of Communication in an IPv4 Network (ประเภทของการสื่อสารในเครือข่าย IPv4)**
+		- การสื่อสารใน IPv4 แบ่งออกเป็น **3 ประเภท**:
+			- **Unicast**: ส่งข้อมูลจากหนึ่งไปยังหนึ่ง (One-to-One)![[Pasted image 20241020193531.png]]
+			- **Broadcast**: ส่งข้อมูลจากหนึ่งไปยังทุกอุปกรณ์ในเครือข่าย (One-to-All)![[Pasted image 20241020193555.png]]
+			- **Multicast**: ส่งข้อมูลจากหนึ่งไปยังหลายอุปกรณ์ที่อยู่ในกลุ่มเดียวกัน (One-to-Many) 
+				 ![[Pasted image 20241020193606.png]]
+	- **Class of IP Address (ประเภทของ IP Address)**
+		- IP Address แบ่งเป็น Class ต่าง ๆ ตามขนาดของเครือข่าย การใช้งาน IP Address แต่ละ Class จะกำหนดช่วงและจำนวน Host ที่ใช้ได้แตกต่างกัน เช่น Class C มี Host ได้สูงสุด 254 ตัวในแต่ละเครือข่าย**นี่คือเหตุผลว่าทำไม Host ID มีแค่ 1 ถึง 254** :
+			- **Class A**: ใช้สำหรับเครือข่ายขนาดใหญ่ มี 8 บิตสำหรับ Network และ 24 บิตสำหรับ Host
+				- Ex: 255.0.0.0
+			- **Class B**: ใช้สำหรับองค์กรขนาดกลาง มี 16 บิตสำหรับ Network และ 16 บิตสำหรับ Host
+				- Ex : 255.255.0.0
+			- **Class C**: ใช้สำหรับองค์กรขนาดเล็ก มี 24 บิตสำหรับ Network และ 8 บิตสำหรับ Host
+				- Ex : 255.255.255.0
+			- **Class D**: ใช้สำหรับ Multicast
+			- **Class E**: ใช้สำหรับการทดลอง
+	- **การให้บริการบนเครือข่าย**
+		- เมื่ออุปกรณ์สื่อสารกันได้ จะทำให้เกิด Services ต่างๆบน Internet Ex: Web, Email, Netflix เป็นต้น
