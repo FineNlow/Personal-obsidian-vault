@@ -72,8 +72,28 @@
 	- What is internet???
 		- มันมีคำตอบอยู่สองแบบคือ
 			1.) เราอธิบายได้ว่ามันเป็น <span style="color:rgb(0, 176, 240)">nuts and bolts(หลักปฎิบัติพื้นฐาน)</span> ของ internet แค่นั้นแหล่ะ และ hardware พื้นฐาน, ส่วนย่อยๆของ software นั่นรวมกันได้เป็น internet.
-			2.) เราอธิบายได้ว่ามันเป็นโครงสร้างของ network ที่บริการให้กับ applications.
-		- <span style="color:rgb(0, 176, 240)">nuts and bolts</span> 
+			2.) เราอธิบายได้ว่ามันเป็นโครงสร้างของ network ที่บริการให้กับ applications แบบกระจายข้อมูล แบบพวก website email เป็นต้น.
+		- <span style="color:rgb(0, 176, 240)">โครงสร้าง nuts and bolts</span> 
 			- Internet เป็น computer network ที่เชื่อมต่อคอมพิวเตอร์หลายพันล้านเครื่องเข้าด้วยกัน ส่วนใหญ่เป็น pc, Linux workstation, web server
-			- ระบบปลายทางอินเทอร์เน็ตที่ไม่ใช่แบบเดิมๆ เช่น แล็ปท็อป สมาร์ทโฟน แท็บเล็ต ทีวี คอนโซลเกมเว็บแคม รถยนต์ อุปกรณ์ตรวจจับสิ่งแวดล้อม กรอบรูป และระบบไฟฟ้าและความปลอดภัยในบ้าน กำลังเชื่อมต่อกับอินเทอร์เน็ตมากขึ้นเรื่อยๆ
+			- End system ปัจจุบันมีเพิ่มมากขึ้น เช่น รถยนต์ อุปกรณ์ตรวจจับสิ่งแวดล้อม กรอบรูป และระบบไฟฟ้าและความปลอดภัยในบ้าน กำลังเชื่อมต่อกับอินเทอร์เน็ตมากขึ้นเรื่อยๆ
 			- และเมื่อมีปุกรณ์ใหม่ๆเชื่อมต่อเข้ามา computer network ก็เริ่มที่จะล้าสมัย
+			- ในศัพท์เฉพาะ(Jargon) internet เครื่องมือพวกนี้เรียกว่า host หรือ end system
+			- Device => Hosts = End system, running network apps at Internet's "Edge"
+			- Packet switches : ส่งต่อ packets (ชิ้นส่วนข้อมูล) => ที่โดดเด่นคือ Routers, switches โดยสองตัวนี้จะมีหน้าที่ส่ง packets ไปยังปลายทางเหมือนกัน แต่ Link-layer switches โดยปกติแล้วต้องเข้าถึง Network(access networks) ระหว่างที่ Routers ปกติจะใช้ Network หลัก (Network Core)
+			- Communication links => (Fiber, radio, satellite), อัตราส่งข้อมูลแบบ bandwidth
+			- Networks => รวมอุปกรณ์, routers, links : จัดเรียงเป็นระเบียบ
+			- End systems ต่อเข้าด้วยกันโดยใช้ packet switches โดยมีหลายประเภทที่ทำโดยใช้วัสดุแตกต่างกัย เช่น สายทองแดง สายไฟเบอร์ออปติค เป็นต้น
+			- links สามารถส่งข้อมูลได้ด้วยอัตราที่ต่างกัน โดยจะวัดเป็น bits/sec.
+			- เมื่อ End system หนึ่งมีข้อมูลที่จะส่งไปยังอีก End system อีกระบบหนึ่ง ระบบปลายทางที่ส่งจะแบ่งส่วนข้อมูลและเพิ่ม bytes ส่วนหัวให้กับแต่ละส่วน
+			- packages ข้อมูลที่ได้จะูกส่งเป็น packets ไปยัง End system ปลายทาง ละจะกลับมาเป็นข้อมูลเดิม![[Pasted image 20241020145709.png]]
+			- End system จะเชื่อต่อผ่าน ISP (Internet Service Providers) แบบ
+				- Residential ISPs => เครือข่ายท้องถิ่น, University ISPs, Corporate ISPs, ISPs ที่รองรับการเข้าถึงผ่าน WIFI สาธารณะแบบใน สนามบิน ร้านกาแฟ โรงแรม เป็นต้น
+			- ISP อยู่ใน Packet switches และ communication links.
+			- ISP ให้บริการ Internet เพื่อเข้าถึง Content(Content providers) โดยต่อตรงกับ Internet, Internet ต้องต่อ End system เข้าด้วยกัน ISP ที่ให้ Access End system จะต้องเชื่อมต่อถึงกันด้วย
+			- โดย ISPs มีระดับ Tier ดังนี้
+				- Lower-tier ISPs => Local
+				- Upper-tier ISPs => national and international AT&T(USA), Sprint(USA), NTT(Japan) เป็นต้น มี Router ความเร็วระดับสูงพร้อมกับสายไฟเบอร์ออปติกที่มีการส่งข้อมูลแบบรวดเร็ว
+				- แต่ไม่ว่าระดับไหนจะจัดการได้อย่างอิสระ และเรียกใช้ IP protocol และมีกฎต่างๆ
+				- Protocols ควบคุมการรับและส่งข้อมูลภายใน Internet โดยมี Transmission Control Protocol (TCP) และ Internet Protocol (IP) ที่เป็นตัวหลักสำคัญๆใน Protocols ของ Internet
+				- IP protocols นั้นระบุ packets ที่ส่งและรับจาก routers และ End systems
+				- IETF => พัฒนามาตรฐานของ Internet(requests for comments หรือ RFCs) เพื่อออกแบบ Network, Protocol ที่เผชิญมาตั้งแต่ยุค [Allman 2011] โดย RFCs เป็น Docs ที่มีรายละเอียดเยอะมาก จะคอยกำหนด Protocols ต่างๆเช่น TCP, IP, HTTP(Website) และ SMTP(Email)
